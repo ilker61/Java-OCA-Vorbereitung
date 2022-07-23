@@ -21,5 +21,7 @@ public class C05_Wrapper {
         long sayiToplami= Long.valueOf(tcNo) + Integer.valueOf(okulNo);
 
         System.out.println(sayiToplami);
+
+
     }
 }
