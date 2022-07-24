@@ -27,6 +27,25 @@ public class C02_Concanation {
         System.out.println(""+sayi1+sayi2+str2);
 
 
+        String yazi= "adamin numarasi 4527 imis";
+
+        // yukaridaki stringte bulunan sayinin rakamlar topalmini yaz
+
+        int ilkSpace= yazi.indexOf(" ");
+        int ikinciSpace=yazi.indexOf(" ", ilkSpace+1);
+        int ucuncuSpace=yazi.indexOf(" ", ikinciSpace+1);
+
+        String sayiYazi=yazi.substring(ikinciSpace+1, ucuncuSpace);
+        int sayiSayi=Integer.valueOf(sayiYazi);
+
+        int rakamlarToplami=0;
+
+        for (int i = 0; i <= sayiSayi; i++) {
+            rakamlarToplami+=sayiSayi%10;
+            sayiSayi/=10;
+        }
+        System.out.println("Sayinin Rakamlar Toplami: "+ rakamlarToplami);
+
 
     }
 }
