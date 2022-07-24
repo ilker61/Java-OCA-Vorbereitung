@@ -13,12 +13,10 @@ public class C02_IfStatement {
 
         String gun=scan.next();
 
-        if (gun.equalsIgnoreCase("pazartesi") || gun.equalsIgnoreCase("sali") || gun.equalsIgnoreCase("carsamba")||
-                gun.equalsIgnoreCase("persembe") || gun.equalsIgnoreCase("cuma")){
-            System.out.println("girdiguiniz gun; " +gun + " Hafta ici bir gundur");
+        if (gun.equalsIgnoreCase("pazar")|| gun.equalsIgnoreCase("cumartesi")){
+            System.out.println("girlen gun; "+ gun+ " hafta sonudur");
         } else {
-            System.out.println("girdiguiniz gun; " +gun + " Hafta sonu bir gundur");
+            System.out.println("girlen gun; "+ gun+ " hafta icidir");
         }
-
     }
 }
