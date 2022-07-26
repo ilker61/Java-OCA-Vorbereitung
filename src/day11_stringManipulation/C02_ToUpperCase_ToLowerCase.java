@@ -24,6 +24,8 @@ public class C02_ToUpperCase_ToLowerCase {
         System.out.println(name.toLowerCase().equals(ad)); // true
 
         System.out.println(name.equals(isim)); // true
+        System.out.println(isim.equalsIgnoreCase(ad)); // true
+
 
     }
 }
