@@ -1,6 +1,6 @@
 package day11_stringManipulation;
 
-public class C01_Concat_IndexOf {
+public class C01_Concat_CharAt {
     public static void main(String[] args) {
 
         String str1="Java";
@@ -11,9 +11,11 @@ public class C01_Concat_IndexOf {
 
         String yazi= "Bu yaz havalar cok sicak";
 
-        System.out.println(yazi.indexOf("B")); // 0
+        System.out.println(yazi.charAt(0)); // B
 
+        // 15. indexdeki c harfini buyuk yazdir
 
+        System.out.println(yazi.toUpperCase().charAt(15));  // C
 
 
     }
