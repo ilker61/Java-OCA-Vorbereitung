@@ -22,8 +22,5 @@ public class C02_Substring {
         } else {
             System.out.println("az sonuc bulundu ya la");
         }
-
-
-
     }
 }
