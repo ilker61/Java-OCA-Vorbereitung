@@ -18,5 +18,14 @@ public class C01_IfStatement {
             System.out.println("Girdiginiz her ne nane ise harf degildur");
         }
 
+        int a=5;
+        int b=6;
+        int c=9;
+
+       int x= a<b?b*c:a*b;
+
+        System.out.println(x);
+
+
     }
 }
