@@ -2,7 +2,7 @@ package day17_forloop;
 
 import java.util.Scanner;
 
-public class Soru1 {
+public class SoruPalindrom {
     public static void main(String[] args) {
         // palindrom mu kune??
 
@@ -11,7 +11,7 @@ public class Soru1 {
         String str = scan.next();
 
         palindromKontrol(str);
-        
+
     }
 
     private static void palindromKontrol(String str) {

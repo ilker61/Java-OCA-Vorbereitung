@@ -2,7 +2,7 @@ package day17_forloop;
 
 import java.util.Scanner;
 
-public class Soru {
+public class SoruStringTesCevirme {
     public static void main(String[] args) {
 
         // Kullanicidan bir string al, stringi tersten yazan bir method yaz
