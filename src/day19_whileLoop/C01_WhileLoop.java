@@ -22,5 +22,6 @@ public class C01_WhileLoop {
         }
         System.out.println("");
         System.out.println(input + " sayisini bolen " + sayac + " dene sayi var ya laa");
+
     }
 }
