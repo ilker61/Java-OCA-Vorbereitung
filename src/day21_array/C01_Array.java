@@ -16,5 +16,11 @@ public class C01_Array {
             System.out.print(arr[i] + "  ");
         }
 
+        arr[0]=12;
+        arr[2]=13;
+
+        System.out.println("");
+        System.out.println(Arrays.toString(arr));
+
     }
 }
